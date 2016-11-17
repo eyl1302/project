@@ -1,0 +1,14 @@
+# put common definitions in here
+CC			?= arm-poky-linux-gnueabi-gcc
+LD			?= arm-poky-linux-gnueabi-gcc
+AR			?= arm-poky-linux-gnueabi-ar
+RANLIB		?= arm-poky-linux-gnueabi-ranlib
+PRJCFLAGS	= -g
+LDFLAGS		=
+ARFLAGS		=
+RM			= rm
+ECHO		= echo
+SHELL		= /bin/sh
+
+
+.SILENT :

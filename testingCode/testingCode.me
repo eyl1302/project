@@ -1,0 +1,103 @@
+/********************************************************************************/
+/* Company		 : NEXCOM INC.													*/
+/* System		 : Testing Program												*/
+/* Author		 : Harry														*/
+/* Init date	 : 2016/06/24													*/
+/* File name	 : rtc.me														*/
+/* Discription   : For NEXCOM ISR5 Products										*/
+/* Version		 : X.XX															*/
+/* Last Update   : 2016/06/24													*/
+/********************************************************************************/
+
+--------------------> 0.01
+2016.06.24
+1. Create this ".me" File.
+
+2016.06.30
+1. Compile & Link Modify.
+2. Added Queue Function.
+3. Added System Timer Function.
+
+--------------------> 0.02
+2016.07.02
+1. Modify Queue Function.
+2. Added GGauge Queue Function.
+3. Added GGauge Function.
+
+--------------------> 0.03
+2016.07.04
+1. Modify the Link Command From $(LD) to $(CCC)  of Link Section of src/Makefile:
+	echo $(LD) -> arm-poky-linux-gnueabi-ld --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi
+	echo $(CC) -> arm-poky-linux-gnueabi-gcc -march=armv7-a -mthumb-interwork -mfloat-abi=hard -mfpu=neon -mtune=cortex-a9 --sysroot=/opt/poky/1.7/sysroots/cortexa9hf-vfp-neon-poky-linux-gnueabi
+2. Added Debug Mode Printf Function.
+
+2016.07.11
+1. Change GGauge Module Name to Battery.
+
+--------------------> 0.04
+2016.07.12
+1. Added Audio Module
+
+--------------------> 0.05
+2016.07.15
+1. Added GSensor Module
+
+--------------------> 0.06
+2016.07.22
+1. Added Serial Flash Module
+
+2016.07.28
+1. Added MTB Library.
+
+--------------------> 0.07
+2016.08.24
+1. Added SDRAM Module
+
+2016.08.31
+1. Modify SDRAM Verify Function.
+
+2016.09.12
+1. Modify SDRAM Verify Function.
+
+--------------------> 0.08
+2016.09.13
+1. Modify SDRAM Debug Function.
+
+2. Addd eMMC Module.
+
+2016.09.20
+1. Modify eMMC Verify Function.
+2. Added CCM Module.
+
+2016.09.22
+1. Create RTC & Battery Queue for AutoTest All function.
+
+--------------------> 0.09
+2016.09.23
+1. Added Audio, emmc, gsensor, sdram, sflash Queue.
+2. Added USB Verify Function.
+
+2016.09.26
+1. Added USB Queue.
+
+--------------------> 0.10
+2016.10.04
+1. Added Touch Panel Function.
+
+2016.10.05
+1. Added PMIC Function.
+
+--------------------> 0.11
+2016.10.20
+1. Added CAN Function.
+
+Known Bug:
+None
+
+Recommend Change:
+None
+
+NOTE:
+None
+
+
